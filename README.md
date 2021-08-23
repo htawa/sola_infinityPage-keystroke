@@ -3,8 +3,8 @@
 チャレダンのページ送りをキーボードで操作できるようにするスクリプトです。  
 イベントの優先順位から自動で選択することもできます。
 
-**インストール方法**
-先にTampermonkeyなどをご用意ください。
+**インストール方法**  
+先にTampermonkeyなどをご用意ください。  
 次に[ここ](https://github.com/htawa/sola_infinityPage-keystroke/raw/main/script/sola_infinityPage-keystroke.user.js)にアクセスし開いたTampermonkeyの画面からインストールしてください。
 
 **設定についてはスクリプトのコメントをお読みください。**
