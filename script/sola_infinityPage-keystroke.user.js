@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         sola_チャレダンページキー操作スクリプト
-// @version      0.3
+// @version      0.4
 // @author       ssz
 // @match        http://lostartifact.xsrv.jp/SoLA/infinity.php
 // @match        http://lostartifact.xsrv.jp/SoLA/battle.php
@@ -13,7 +13,7 @@
 //
 //  使い方
 //  - キャラクター選択ページ：何もしません。（たぶん）
-//  - イベント選択ページ：1,2,3でイベント選択、Enterでイベントを選ぶ。イベントを選択せずにEnterを押しても無視されるので空送信されることはありません。
+//  - イベント選択ページ：1,2,3でイベント選択、Enterでイベントを選ぶ。イベントを選択せずにEnterを押しても無視されるので空送信されることはありません。（デフォルトの挙動は除く。）
 //  - 間のページ：Enterで進みます。
 //  - 戦闘ログ：Enterでチャレダンページに進みます、敗北や引分の場合は進みません。
 //
@@ -107,7 +107,7 @@
         if(!!radios　&& config.evAutoCheck) {
             (() => {
                 const texts = radios.map(radio => radio.parentNode.nextSibling.textContent + radio.parentNode.nextSibling.nextSibling.textContent);
-                console.log(radios, texts);
+                //console.log(radios, texts);
                 const m = texts.map(text => config.priority.indexOf(text));
                 let def = 0;
                 for(let i = 0; i < m.length; i++) {
