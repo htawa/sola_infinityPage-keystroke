@@ -12,4 +12,4 @@
 
 **設定についてはスクリプトのコメントをお読みください。**
 
-動作確認 google chrome pc版
+動作確認環境 google chrome pc版
