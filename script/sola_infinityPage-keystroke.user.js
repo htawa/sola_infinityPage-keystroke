@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         sola_チャレダンページキー操作スクリプト
-// @version      0.1
+// @version      0.2
 // @author       ssz
 // @match        http://lostartifact.xsrv.jp/SoLA/infinity.php
 // @match        http://lostartifact.xsrv.jp/SoLA/battle.php
-// @updateURL   https://github.com/htawa/sola_infinityPage-keystroke/raw/main/script/sola_infinityPage-keystroke.user.js 
-// @downloadURL https://github.com/htawa/sola_infinityPage-keystroke/raw/main/script/sola_infinityPage-keystroke.user.js 
+// @updateURL   https://github.com/htawa/sola_infinityPage-keystroke/raw/main/script/sola_infinityPage-keystroke.user.js
+// @downloadURL https://github.com/htawa/sola_infinityPage-keystroke/raw/main/script/sola_infinityPage-keystroke.user.js
 // ==/UserScript==
 
 //  チャレダンのページ送りをキーボードで操作できるようにするスクリプトです。
